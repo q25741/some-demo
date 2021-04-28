@@ -59,8 +59,6 @@ public class MergeSort {
         while (j < right.length) {
             ints[i + j] = right[j++];
         }
-//        System.out.println(Arrays.toString(left) + " " + Arrays.toString(right));
-//        System.out.println(Arrays.toString(ints));
         return ints;
     }
 
